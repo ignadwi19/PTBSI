@@ -7,6 +7,8 @@ namespace Calculator
         static void Main(string[] args)
         {
 
+//kurang paham maksud soalnya kak. apakah harus pake switch ?
+
             int Sum(int num1, int num2) {
                 result = num1 + num2;
                 return result;
