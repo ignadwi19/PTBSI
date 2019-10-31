@@ -11,7 +11,7 @@ namespace DaysToNextBirthday
             birthday.ToString();
 			today.ToString();
             // Count the days of your next birthday
-            string nextBirth = birthday - today;
+            string nextBirth =  birthday.Subtract(today);
             Console.WriteLine($"{nextBirth} days remaining to my next birthday.");
         }
     }

@@ -24,6 +24,7 @@ namespace FruitFinder
 
         static int IndexFinder(string[] list, string value)
         {
+            //Array.Find(value)
             return 0;
         }
     }
