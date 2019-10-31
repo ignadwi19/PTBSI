@@ -6,6 +6,30 @@ namespace Grade
     {
         static void Main(string[] args)
         {
+     Console.WriteLine("Enter Your Name");
+     int Input = Console.ReadLine();
+     Console.WriteLine("{0}", Grade(Input));
+			
+string Grade(int number) {
+	String value;
+if (number > 90) {
+     value = "A";
+}
+else if((number > 79) && (number < 90)) {
+    value = "B";
+}
+else if((number > 69) && (number < 80)) {
+    value = "C";
+}
+else if((number > 59) && (number < 70)) {
+    value = "D";
+}
+else if(number < 60) {
+    value = "E";
+}
+	return value;
+            }
+       
             // Create a method called Grade()
             // That method should accept an integer with some criteria
             // 1) If the input more than 90 the output will be "A"
