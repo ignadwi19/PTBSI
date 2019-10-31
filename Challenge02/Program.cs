@@ -6,9 +6,13 @@ namespace DaysToNextBirthday
     {
         static void Main(string[] args)
         {
-            var today = DateTime.Now;
+            DateTime today = DateTime.Now;
+            DateTime birthday = DateTime.Parse("03/19/2020"); 
+            birthday.ToString();
+			today.ToString();
             // Count the days of your next birthday
-            Console.WriteLine("{0} days remaining to my next birthday.");
+            string nextBirth = birthday - today;
+            Console.WriteLine($"{nextBirth} days remaining to my next birthday.");
         }
     }
 }
