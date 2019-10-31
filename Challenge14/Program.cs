@@ -16,7 +16,23 @@ namespace PalindromeDetector
 
         static bool IsPalindrome(string text)
         {
-            return true;
+           int i = 0;
+            int j = text.Length - 1;
+            while (true)
+            {
+                if (i > j)
+                {
+                    return true;
+                }
+                char a = text[i];
+                char b = text[j];
+                if (char.ToLower(a) != char.ToLower(b))
+                {
+                    return false;
+                }
+                i++;
+                j--;
+            }
         }
     }
 }

@@ -13,6 +13,11 @@ namespace CountWords
 
         static int CountWords(string value)
         {
+         //hitung setiap character " "
+         //hasil hitung disimpan pada variabel jumlahkata
+         //jumlahkata = jumlahkata+1
+
+
             // Make this method to be able counting words
             return 0;
         }

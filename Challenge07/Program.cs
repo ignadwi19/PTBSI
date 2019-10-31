@@ -17,32 +17,38 @@ namespace TempratureConverter
 
         private static double CelciusToFahrenheit(double value)
         {
-            return 0;
+            double fahrenheit = value*(9/5) + 32;
+            return fahrenheit;
         }
 
         private static double FahrenheitToCelcius(double value)
         {
-            return 0;
+            double Celcius = (value-32)*(5/9)
+            return Celcius;
         }
 
         private static double CelciusToKelvin(double value)
         {
-            return 0;
+            double Kelvin = value+273.15;
+            return Kelvin;
         }
 
         private static double KelvinToCelcius(double value)
         {
-            return 0;
+            double Celcius = value-273.15;
+            return Celcius;
         }
 
         private static double KelvinToFahrenheit(double value)
         {
-            return 0;
+           fahrenheit = (value - 273.15)*(9/5)+32;
+           return fahrenheit;
         }
 
         private static double FahrenheitToKelvin(double value)
         {
-            return 0;
+            Kelvin = (value − 32) * (5/9) + 273.15;
+            return Kelvin;
         }
     }
 }

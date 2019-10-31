@@ -11,6 +11,9 @@ namespace MirrorString
 
         static string Mirror(string text)
         {
+            var chars = text.ToCharArray();
+            Array.Reverse(chars);
+            var reversedText = new String(chars);
             return "";
         }
     }
