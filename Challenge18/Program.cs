@@ -15,16 +15,19 @@ namespace FindMinMaxAvg
 
         static int FindMax(int[] numbers)
         {
+            int max = numbers.Max();
             return 0;
         }
 
         static int FindMin(int[] numbers)
         {
+             int min = numbers.Min();
             return 0;
         }
 
         static int FindAverage(int[] numbers)
         {
+            double avg = Queryable.Average(numbers.AsQueryable());  
             return 0;
         }
     }
